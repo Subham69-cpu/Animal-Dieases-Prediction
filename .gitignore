@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.so
+.env
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+*.log
+
+# ML artifacts (regenerate locally)
+dataset/*
+!dataset/.gitkeep
+cnn_model/*
+!cnn_model/.gitkeep
+ml_model/*
+!ml_model/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+.DS_Store
+
+# Local SQLite fallback (when MongoDB is off)
+data/*.db
